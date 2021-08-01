@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">kotlinBMICalculator</string>
+    <string name="pt_height_hint">Altura em m (ex: 1.70)</string>
+    <string name="pt_weight_hint">Peso em Kg (ex: 73.5)</string>
+    <string name="pt_calculate_button">Calcular</string>
+    <string name="pt_title">Calculadora IMC</string>
 </resources>
