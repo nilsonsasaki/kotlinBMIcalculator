@@ -27,7 +27,7 @@ class MainActivity : AppCompatActivity() {
         val tvBMI: TextView = findViewById(R.id.tvBMI)
         val height: Double = etHeightInput.text.toString().toDouble()
         val weight: Double = etWeightInput.text.toString().toDouble()
-        val squaredHeight = height?.pow(2)
+        val squaredHeight = height.pow(2)
         val bmi: String = String.format("%.1f", (weight / squaredHeight))
         val minWeight = String.format("%.1f", 18.5 * squaredHeight)
         val maxWeight = String.format("%.1f", 24.9 * squaredHeight)
