@@ -4,8 +4,8 @@
     <string name="pt_weight_hint">Peso em Kg (ex: 73.5)</string>
     <string name="pt_calculate_button">Calcular</string>
     <string name="pt_title">Calculadora IMC</string>
-    <string name="pt_calculated_normal">%1$s\n\nIMC normal</string>
-    <string name="pt_calculated_above_normal">%1$s\n\nIMC acima do normal</string>
-    <string name="pt_calculated_below_normal">%1$s\n\nIMC abaixo do normal</string>
+    <string name="pt_calculated_normal">%1$s\nIMC normal</string>
+    <string name="pt_calculated_above_normal">%1$s\nIMC acima do normal</string>
+    <string name="pt_calculated_below_normal">%1$s\nIMC abaixo do normal</string>
     <string name="pt_bmi_normal_range">A faixa Normal de Peso pra sua altura é de:\n\n%1$s kg a %2$s kg</string>
 </resources>
