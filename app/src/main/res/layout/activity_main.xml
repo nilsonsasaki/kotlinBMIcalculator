@@ -85,6 +85,21 @@
         app:layout_constraintVertical_bias="0.5" />
 
     <TextView
+        android:id="@+id/tvBMI"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:textSize="36sp"
+        android:textColor="@color/white"
+        android:layout_marginTop="48dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btCalculate"
+        tools:text="Test"
+        tools:textSize="16sp"/>
+
+    <TextView
         android:id="@+id/tvResults"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -95,8 +110,9 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btCalculate"
+        app:layout_constraintTop_toBottomOf="@+id/tvBMI"
         tools:text="Test"
         tools:textSize="16sp"/>
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
